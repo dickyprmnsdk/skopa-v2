@@ -1,0 +1,24 @@
+# Dependencies
+/backend/vendor
+/frontend/node_modules
+
+# Env
+.env
+*.env
+!.env.example
+
+# Laravel
+/backend/storage/*.key
+/backend/public/storage
+
+# Build
+/frontend/dist
+
+# IDE / OS
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
